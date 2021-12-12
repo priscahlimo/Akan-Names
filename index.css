@@ -1,0 +1,37 @@
+ body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh; 
+    background-color:rgb(163, 215, 228);
+ }
+
+.container img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    float: right;
+} 
+.container-fluid{
+    display: flex;
+}
+ h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+#newName{
+    color:blue
+}
+#newDay{
+    color:blue
+}
+.head{
+    color: blue;
+    text-decoration: underline;
+}
+
