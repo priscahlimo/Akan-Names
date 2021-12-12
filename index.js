@@ -24,7 +24,7 @@ function getVal() {
 }
 
 // function getName() {
-//     let days = ["Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
+    let days = ["Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
 //     let femaleAkan = ["Yaa", "Afua", "Ama", "Akosua", "Adwoa", "Abena", "Akua"]
 //     let maleAkan = ["Kofi", "Kwame", "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw"]
 
