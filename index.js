@@ -23,7 +23,7 @@ function getVal() {
     }
 }
 
-// function getName() {
+function getName() {
     let days = ["Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
     let femaleAkan = ["Yaa", "Afua", "Ama", "Akosua", "Adwoa", "Abena", "Akua"]
     let maleAkan = ["Kofi", "Kwame", "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw"]
@@ -34,10 +34,10 @@ function getVal() {
     let nName = document.getElementById("newName")
     let dDay = document.getElementById("newDay")
 
-//     if (male.checked) {
-//         nName.innerHTML = " Your Akan name is: " + maleAkan[index]
-//         dDay.innerHTML = " You were born on: " + days[index]
-//     } 
+    if (male.checked) {
+        nName.innerHTML = " Your Akan name is: " + maleAkan[index]
+        dDay.innerHTML = " You were born on: " + days[index]
+    } 
 //     else if(female.checked){
 //         nName.innerHTML = "Your Akan name is: "  + femaleAkan[index]
 //         dDay.innerHTML = " You were born on: " + days[index]
