@@ -38,10 +38,10 @@ function getName() {
         nName.innerHTML = " Your Akan name is: " + maleAkan[index]
         dDay.innerHTML = " You were born on: " + days[index]
     } 
-//     else if(female.checked){
-//         nName.innerHTML = "Your Akan name is: "  + femaleAkan[index]
-//         dDay.innerHTML = " You were born on: " + days[index]
-//     }
+    else if(female.checked){
+        nName.innerHTML = "Your Akan name is: "  + femaleAkan[index]
+        dDay.innerHTML = " You were born on: " + days[index]
+    }
 //     else{
 //         alert("please enter valid inputs")
 //     }
