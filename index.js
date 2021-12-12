@@ -4,17 +4,17 @@ let MM = document.getElementById("birthdayM")
 let YY = document.getElementById("birthdayY")
 let btn = document.getElementById("btn")
 
-// function getVal() {
+function getVal() {
     DD = parseInt(DD.value)
     MM = parseInt(MM.value)
     YY = parseInt(YY.value)
     let CC = YY.toString().substr(0, 2);
 
 
-//     if (DD <= 0 || DD > 31) {
-//         alert("Please enter a valid date");
-//     } else if (MM <= 0 || MM > 12) {
-//         alert("Please enter a valid month");
+    if (DD <= 0 || DD > 31) {
+        alert("Please enter a valid date");
+    } else if (MM <= 0 || MM > 12) {
+        alert("Please enter a valid month");
 //     } else {
 //         d = Math.floor(((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7
 
