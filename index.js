@@ -5,10 +5,10 @@ let YY = document.getElementById("birthdayY")
 let btn = document.getElementById("btn")
 
 // function getVal() {
-//     DD = parseInt(DD.value)
-//     MM = parseInt(MM.value)
-//     YY = parseInt(YY.value)
-//     let CC = YY.toString().substr(0, 2);
+    DD = parseInt(DD.value)
+    MM = parseInt(MM.value)
+    YY = parseInt(YY.value)
+    let CC = YY.toString().substr(0, 2);
 
 
 //     if (DD <= 0 || DD > 31) {
