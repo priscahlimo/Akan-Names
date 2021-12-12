@@ -50,9 +50,9 @@ function getName() {
 }
 
 
-// btn.addEventListener("click", (e) => {
-//     e.preventDefault()
-//     getName()
-// })
+btn.addEventListener("click", (e) => {
+    e.preventDefault()
+    getName()
+})
 
 
