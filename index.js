@@ -15,13 +15,13 @@ function getVal() {
         alert("Please enter a valid date");
     } else if (MM <= 0 || MM > 12) {
         alert("Please enter a valid month");
-//     } else {
-//         d = Math.floor(((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7
+    } else {
+        d = Math.floor(((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7
 
-//         return d
+        return d
 
-//     }
-// }
+    }
+}
 
 // function getName() {
 //     let days = ["Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
