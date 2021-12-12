@@ -42,12 +42,12 @@ function getName() {
         nName.innerHTML = "Your Akan name is: "  + femaleAkan[index]
         dDay.innerHTML = " You were born on: " + days[index]
     }
-//     else{
-//         alert("please enter valid inputs")
-//     }
+    else{
+        alert("please enter valid inputs")
+    }
     
-//     document.getElementById("form1").reset();
-// }
+    document.getElementById("form1").reset();
+}
 
 
 // btn.addEventListener("click", (e) => {
