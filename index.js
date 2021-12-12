@@ -1,4 +1,3 @@
-
 let DD = document.getElementById("birthday")
 let MM = document.getElementById("birthdayM")
 let YY = document.getElementById("birthdayY")
@@ -37,15 +36,13 @@ function getName() {
     if (male.checked) {
         nName.innerHTML = " Your Akan name is: " + maleAkan[index]
         dDay.innerHTML = " You were born on: " + days[index]
-    } 
-    else if(female.checked){
-        nName.innerHTML = "Your Akan name is: "  + femaleAkan[index]
+    } else if (female.checked) {
+        nName.innerHTML = "Your Akan name is: " + femaleAkan[index]
         dDay.innerHTML = " You were born on: " + days[index]
-    }
-    else{
+    } else {
         alert("please enter valid inputs")
     }
-    
+
     document.getElementById("form1").reset();
 }
 
@@ -54,5 +51,3 @@ btn.addEventListener("click", (e) => {
     e.preventDefault()
     getName()
 })
-
-
