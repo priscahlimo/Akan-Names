@@ -28,11 +28,11 @@ function getVal() {
     let femaleAkan = ["Yaa", "Afua", "Ama", "Akosua", "Adwoa", "Abena", "Akua"]
     let maleAkan = ["Kofi", "Kwame", "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw"]
 
-//     let index = getVal()
-//     let female = document.getElementById("gridRadios1");
-//     let male = document.getElementById("gridRadios2");
-//     let nName = document.getElementById("newName")
-//     let dDay = document.getElementById("newDay")
+    let index = getVal()
+    let female = document.getElementById("gridRadios1");
+    let male = document.getElementById("gridRadios2");
+    let nName = document.getElementById("newName")
+    let dDay = document.getElementById("newDay")
 
 //     if (male.checked) {
 //         nName.innerHTML = " Your Akan name is: " + maleAkan[index]
