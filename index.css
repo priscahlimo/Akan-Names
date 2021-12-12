@@ -11,7 +11,7 @@
     background-position: right;
     float: right;
 } 
-/* .container-fluid{
+.container-fluid{
     display: flex;
 }
  h1{
@@ -20,7 +20,7 @@
 p{
     text-align: center;
 }
-.container{
+/* .container{
     display: flex;
     justify-content: space-between;
 }
@@ -34,4 +34,4 @@ p{
     color: blue;
     text-decoration: underline;
 }
-  */
+   */
